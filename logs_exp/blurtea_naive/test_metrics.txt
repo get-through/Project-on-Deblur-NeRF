@@ -1,0 +1,64 @@
+num_gpu = 2
+expname = blurtea_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/data # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+============================
+||
+\/
+num_gpu = 2
+expname = blurtea_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/data # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+============================
+||
+\/
+iter20000/globalstep19999: MSE:0.02107574 PSNR:23.06344169 SSIM:0.74573252 LPIPS:0.20689145
+iter40000/globalstep39999: MSE:0.02127754 PSNR:23.08638574 SSIM:0.75508691 LPIPS:0.19505219
+iter60000/globalstep59999: MSE:0.02062049 PSNR:23.22588913 SSIM:0.76336327 LPIPS:0.18867740
+iter80000/globalstep79999: MSE:0.02039103 PSNR:23.28176193 SSIM:0.76491557 LPIPS:0.18181798
+iter100000/globalstep99999: MSE:0.02090999 PSNR:23.15344669 SSIM:0.76087394 LPIPS:0.18439947
+iter120000/globalstep119999: MSE:0.02070132 PSNR:23.18487744 SSIM:0.76286951 LPIPS:0.18407659
+iter140000/globalstep139999: MSE:0.02106593 PSNR:23.14222374 SSIM:0.76350311 LPIPS:0.18195757
+iter160000/globalstep159999: MSE:0.02102414 PSNR:23.13049126 SSIM:0.76175774 LPIPS:0.18209107
+iter180000/globalstep179999: MSE:0.02090418 PSNR:23.17996789 SSIM:0.76369861 LPIPS:0.18157387
+iter200000/globalstep199999: MSE:0.02080808 PSNR:23.16840227 SSIM:0.76380794 LPIPS:0.18046021
