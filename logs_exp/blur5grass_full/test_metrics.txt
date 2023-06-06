@@ -1,0 +1,264 @@
+num_gpu = 4
+expname = blur5grass1_full_wodepth_woprior
+basedir = /home/twh/Deblur-NeRF/log
+datadir = /home/twh/Deblur-NeRF/data/real_object_motion_blur/blur5grass
+tbdir = /home/twh/Deblur-NeRF/tb
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 6
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 86
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter20000/globalstep19999: MSE:0.03172544 PSNR:21.19957820 SSIM:0.66034549 LPIPS:0.20208009
+iter40000/globalstep39999: MSE:0.02993208 PSNR:21.52608369 SSIM:0.69935815 LPIPS:0.16312627
+iter60000/globalstep59999: MSE:0.02920666 PSNR:21.66923830 SSIM:0.71825317 LPIPS:0.14282162
+num_gpu = 4
+expname = blur5grass1_full_wodepth_woprior
+basedir = /home/twh/Deblur-NeRF/log
+datadir = /home/twh/Deblur-NeRF/data/real_object_motion_blur/blur5grass
+tbdir = /home/twh/Deblur-NeRF/tb
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 6
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 86
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter60000/globalstep59999: MSE:0.02913624 PSNR:21.68009771 SSIM:0.71854006 LPIPS:0.14286852
+iter80000/globalstep79999: MSE:0.02900314 PSNR:21.72276701 SSIM:0.72942780 LPIPS:0.13336839
+iter100000/globalstep99999: MSE:0.02869932 PSNR:21.79966664 SSIM:0.73854724 LPIPS:0.12791556
+num_gpu = 2
+expname = blur5grass1_full_wodepth_woprior
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 6
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 86
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter100000/globalstep99999: MSE:0.02873526 PSNR:21.79375178 SSIM:0.73762777 LPIPS:0.12788507
+iter120000/globalstep119999: MSE:0.02845822 PSNR:21.83757290 SSIM:0.74312277 LPIPS:0.12265776
+num_gpu = 2
+expname = blur5grass1_full_wodepth_woprior
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 6
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 86
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter120000/globalstep119999: MSE:0.02842061 PSNR:21.84170859 SSIM:0.74310267 LPIPS:0.12271066
+num_gpu = 2
+expname = blur5grass1_full_wodepth_woprior
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 6
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 86
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter120000/globalstep119999: MSE:0.02838533 PSNR:21.84650440 SSIM:0.74346024 LPIPS:0.12272367
+iter140000/globalstep139999: MSE:0.02829003 PSNR:21.87608286 SSIM:0.74854620 LPIPS:0.11896001
+iter160000/globalstep159999: MSE:0.02826596 PSNR:21.89316694 SSIM:0.75158621 LPIPS:0.11664510
+iter180000/globalstep179999: MSE:0.02823391 PSNR:21.89412847 SSIM:0.75228125 LPIPS:0.11490902
+iter200000/globalstep199999: MSE:0.02818791 PSNR:21.91139339 SSIM:0.75497332 LPIPS:0.11294242
