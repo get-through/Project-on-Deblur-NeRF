@@ -1,0 +1,60 @@
+num_gpu = 2
+expname = defocusdrinks_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/defocus_1 # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+============================
+||
+\/
+iter20000/globalstep19999: MSE:0.03630949 PSNR:20.60604458 SSIM:0.69101493 LPIPS:0.42076612
+iter40000/globalstep39999: MSE:0.04183728 PSNR:19.87765977 SSIM:0.67408757 LPIPS:0.40691954
+iter60000/globalstep59999: MSE:0.04686219 PSNR:19.37983512 SSIM:0.66818553 LPIPS:0.40713874
+iter80000/globalstep79999: MSE:0.04910687 PSNR:19.17974653 SSIM:0.65972640 LPIPS:0.40712285
+iter100000/globalstep99999: MSE:0.05236609 PSNR:18.89662854 SSIM:0.65189500 LPIPS:0.40837157
+num_gpu = 2
+expname = defocusdrinks_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/defocus_1 # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+============================
+||
+\/
+iter120000/globalstep119999: MSE:0.05549853 PSNR:18.62371654 SSIM:0.64057714 LPIPS:0.41129723
