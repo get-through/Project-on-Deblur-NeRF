@@ -7,3 +7,5 @@ The results are produced by the code [Deblur-NeRF](https://github.com/limacv/Deb
 Blur5grass is its original dataset, while blurtea and defocus drinks are shot by our own.
 
 [tensorboard_exp](https://github.com/get-through/Project-on-Deblur-NeRF/tree/main/tensorborad_exp) contains the visualization of training loss, training PSNR, and four metrics on testset.
+
+![defocus drinks](https://github.com/get-through/Project-on-Deblur-NeRF/blob/main/logs_exp/defocus%20drinks_full/defocusdrinks_full_spiral_200000_rgb.mp4)
