@@ -8,4 +8,4 @@ Blur5grass is its original dataset, while blurtea and defocus drinks are shot by
 
 [tensorboard_exp](https://github.com/get-through/Project-on-Deblur-NeRF/tree/main/tensorborad_exp) contains the visualization of training loss, training PSNR, and four metrics on testset.
 
-![defocus drinks](https://github.com/get-through/Project-on-Deblur-NeRF/blob/main/logs_exp/defocus%20drinks_full/defocusdrinks_full_spiral_200000_rgb.mp4)
+Videos are too big to be shown here, but viewing the defocus_full example, we can see that the background defocus blur has no enhancement, as the data we shot are always focused on one or more of the cans, but not the background. Also, it demonstrates an artifact possibly due to inconsistent light field.
