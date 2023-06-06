@@ -1,0 +1,122 @@
+num_gpu = 2
+expname = blur5grass1_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+num_gpu = 2
+expname = blur5grass1_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+num_gpu = 2
+expname = blur5grass1_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+num_gpu = 2
+expname = blur5grass1_naive
+basedir = ../logs_exp # save log and weights
+datadir = ../deblurnerf_dataset/real_object_motion_blur/blur5grass # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 5
+llffhold = 11
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_type = none
+
+render_rmnearplane = 30
+render_radius_scale = 0.8
+============================
+||
+\/
+iter20000/globalstep19999: MSE:0.03545416 PSNR:20.67533325 SSIM:0.62051632 LPIPS:0.25856394
+iter40000/globalstep39999: MSE:0.03718580 PSNR:20.53733105 SSIM:0.65457812 LPIPS:0.22704077
+iter60000/globalstep59999: MSE:0.03875751 PSNR:20.45664720 SSIM:0.66712733 LPIPS:0.20756458
+iter80000/globalstep79999: MSE:0.04021584 PSNR:20.28248384 SSIM:0.67536695 LPIPS:0.19818304
+iter100000/globalstep99999: MSE:0.03995435 PSNR:20.30273566 SSIM:0.68447231 LPIPS:0.19116527
+iter120000/globalstep119999: MSE:0.04025137 PSNR:20.27590076 SSIM:0.68847896 LPIPS:0.18588874
+iter140000/globalstep139999: MSE:0.03964193 PSNR:20.32281391 SSIM:0.69373742 LPIPS:0.18472186
+iter160000/globalstep159999: MSE:0.04023116 PSNR:20.26026969 SSIM:0.69438691 LPIPS:0.18084694
+iter180000/globalstep179999: MSE:0.04005513 PSNR:20.26435983 SSIM:0.69725952 LPIPS:0.17940980
+iter200000/globalstep199999: MSE:0.04035253 PSNR:20.23480252 SSIM:0.69927469 LPIPS:0.17734760
