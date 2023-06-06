@@ -1,0 +1,159 @@
+num_gpu = 2
+expname = blurtea_full
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/data # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 7
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 2
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 64
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 10
+============================
+||
+\/
+iter20000/globalstep19999: MSE:0.03011937 PSNR:21.81407137 SSIM:0.73607555 LPIPS:0.17482179
+iter40000/globalstep39999: MSE:0.03046721 PSNR:21.77965749 SSIM:0.74115790 LPIPS:0.16994715
+num_gpu = 2
+expname = blurtea_full
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/data # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 7
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 2
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 64
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 10
+============================
+||
+\/
+iter40000/globalstep39999: MSE:0.03035908 PSNR:21.80099171 SSIM:0.74154674 LPIPS:0.16981192
+iter60000/globalstep59999: MSE:0.03045668 PSNR:21.77629761 SSIM:0.74283308 LPIPS:0.16959719
+iter80000/globalstep79999: MSE:0.03028082 PSNR:21.79381579 SSIM:0.74675719 LPIPS:0.16773041
+iter100000/globalstep99999: MSE:0.03050490 PSNR:21.76234344 SSIM:0.74505813 LPIPS:0.16768424
+iter120000/globalstep119999: MSE:0.03016214 PSNR:21.79527058 SSIM:0.74412751 LPIPS:0.16843204
+num_gpu = 2
+expname = blurtea_full
+basedir = ../logs_exp # save log and weights
+datadir = ../mydata/data # data path
+tbdir = ../tensorboard_exp
+dataset_type = llff
+
+factor = 4
+llffhold = 7
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+N_iters = 200000
+lrate = 5e-4
+lrate_decay = 250
+
+use_viewdirs = True
+raw_noise_std = 1e0
+rgb_activate = sigmoid
+
+kernel_start_iter = 1200
+# kernel_prior_weight = 0.1
+# prior_start_iter = 15000
+kernel_align_weight = 0.1
+align_start_iter = 0
+align_end_iter = 180000
+
+kernel_type = deformablesparsekernel
+kernel_ptnum = 5
+kernel_random_hwindow = 0.15
+kernel_random_mode = input
+
+kernel_img_embed = 32
+kernel_rand_embed = 2  # the in_embed
+kernel_spatial_embed = 2
+kernel_depth_embed = 0
+
+kernel_num_hidden = 4
+kernel_num_wide = 64
+kernel_shortcut
+
+kernel_spatialvariant_trans
+tone_mapping_type = gamma
+
+render_rmnearplane = 10
+============================
+||
+\/
+iter120000/globalstep119999: MSE:0.03025245 PSNR:21.78373744 SSIM:0.74361410 LPIPS:0.16835129
+iter140000/globalstep139999: MSE:0.02993498 PSNR:21.84356126 SSIM:0.74601885 LPIPS:0.16710730
+iter160000/globalstep159999: MSE:0.03022897 PSNR:21.80993978 SSIM:0.74644936 LPIPS:0.16702263
+iter180000/globalstep179999: MSE:0.03016948 PSNR:21.80931120 SSIM:0.74429939 LPIPS:0.16716833
+iter200000/globalstep199999: MSE:0.03017420 PSNR:21.81205114 SSIM:0.74564418 LPIPS:0.16623080
